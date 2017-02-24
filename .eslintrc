@@ -1,0 +1,21 @@
+{
+  "globals": {
+    "app_require": true,
+    "APP": true,
+    "require": true
+  },
+  "rules": {
+    "indent": [ "error", 4],
+    "strict": 0,
+    "no-param-reassign": [2, {
+      "props": false
+    }],
+    "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+    "prefer-arrow-callback": ["error", { "allowNamedFunctions": true }]
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": "airbnb"
+}

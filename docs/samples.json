@@ -1,0 +1,24 @@
+[
+  {
+    "name": "expect to get some json back",
+    "summary": "expect to get some json back",
+    "hierarchy": [
+      "simple test scenarios",
+      "expect to get some json back"
+    ],
+    "request": {
+      "headers": {},
+      "method": "GET",
+      "path": "/api/me"
+    },
+    "response": {
+      "status": 200,
+      "headers": {},
+      "body": "{\"param1\":1,\"param2\":2,\"param3\":\"3\"}"
+    },
+    "snippets": {
+      "curl": "curl -X GET \"https://qweutilitysvc.app.aexp.com/api/me\""
+    },
+    "id": 0
+  }
+]

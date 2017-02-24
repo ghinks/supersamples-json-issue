@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://qweutilitysvc.app.aexp.com",
+  "reporter": "Spec",
+  "renderers": {
+    "html": {
+      "outputFolder": "docs",
+      "title": "test json in html"
+    },
+    "json": {
+      // Output file path
+      "outputFile": "docs/samples.json",
+      "includeBuffers": true
+    },
+    "markdown": {
+      "outputFile": "docs/samples.md"
+    }
+  }
+}

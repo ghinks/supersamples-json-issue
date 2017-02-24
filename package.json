@@ -1,0 +1,28 @@
+{
+  "name": "supersamples-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha ./src/action.test.js",
+    "docs": "mocha --reporter supersamples ./src/action.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "mocha": "^3.2.0",
+    "supersamples": "^1.2.0",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
